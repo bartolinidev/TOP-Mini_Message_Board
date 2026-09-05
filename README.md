@@ -20,7 +20,6 @@
 ## 📂 Project Structure
 
 - `/controllers` - Logic for handling requests, rendering views, and managing message data
-- `/errors` - Custom error classes and express error-handling middleware
 - `/routes` - Express routers mapping endpoints to controllers
 - `/views` - EJS templates for the UI
 - `app.js` - Server and middleware configuration
