@@ -1,12 +1,12 @@
 const messages = [
   {
-    text: 'Hi there!',
     user: 'Amando',
+    text: 'Hi there!',
     added: new Date(),
   },
   {
-    text: 'Hello World!',
     user: 'Charles',
+    text: 'Hello World!',
     added: new Date(),
   },
 ];
@@ -15,10 +15,10 @@ async function getAllMessages() {
   return messages;
 }
 
-async function addMessage({ text, user }) {
+async function addMessage({ user, text }) {
   messages.push({
-    text,
     user,
+    text,
     added: new Date(),
   });
 }
