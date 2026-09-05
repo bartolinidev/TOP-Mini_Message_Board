@@ -1,8 +1,8 @@
-### The Odin Project > NodeJS Course > Project: Mini Message Board
+# The Odin Project > NodeJS Course > Project: Mini Message Board
 
-#### ☑️ [Project requirements](https://www.theodinproject.com/lessons/node-path-nodejs-mini-message-board)
+## ☑️ [Project requirements](https://www.theodinproject.com/lessons/node-path-nodejs-mini-message-board)
 
-#### 🎯 Goal
+## 🎯 Goal
 
 - Create a basic messaging app using Express.js:
   - Use Express Router and controller architecture (MVC pattern)
@@ -11,13 +11,13 @@
 - Render dynamic views using EJS:
   - Utilize templates and partials via the `include` directive
 
-#### ✨ Features
+## ✨ Features
 
 - **Message Board (`/`):** Display all posted messages (user, text, date added)
 - **New Message Form (`/new`):** Submit a new message via `POST` request
 - **Message Details:** Open a detailed view for each individual message
 
-#### 📂 Project Structure
+## 📂 Project Structure
 
 - `/controllers` - Logic for handling requests, rendering views, and managing message data
 - `/errors` - Custom error classes and express error-handling middleware
