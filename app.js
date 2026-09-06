@@ -21,6 +21,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/', indexRouter);
 app.use('/new', newMsgRouter);
 
+// Catch-all (Custom 404)
+app.get('/*', (req, res) => {
+  res.status(404).send('Page not found (404)');
+});
+
 // Port
 
 const PORT = process.env.PORT || 3000;
