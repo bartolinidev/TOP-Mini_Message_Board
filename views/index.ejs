@@ -10,7 +10,7 @@
     <h1><%= title %></h1>
     <main>
       <% messages.forEach(m => { %>
-      <%- include('components/message.ejs', { text: m.text, user: m.user, added: m.added }) %>
+      <%- include('components/message.ejs', { text: m.text, user: m.user, added: m.added, id: m.id }) %>
       <% }) %>
     </main>
     <div class="bottom-wrapper">
