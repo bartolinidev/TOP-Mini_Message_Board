@@ -7,7 +7,19 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <main>Enter new message</main>
+    <main>
+      <form method="post" action="/new">
+        <div class="form-line">
+          <label for="user">User</label>
+          <input type="text" id="user" name="user" required />
+        </div>
+        <div class="form-line">
+          <label for="text">Message</label>
+          <input type="text" id="text" name="text" required />
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </main>
     <div class="bottom-wrapper">
       <%- include('components/nav.ejs') %> <%- include('components/footer.ejs')
       %>
