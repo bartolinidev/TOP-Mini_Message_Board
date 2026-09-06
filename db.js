@@ -27,4 +27,5 @@ module.exports = {
   messages,
   addMessage,
   getMessageById,
+  getAllMessages,
 };
