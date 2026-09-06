@@ -42,9 +42,10 @@ a:visited {
   --space-base: 4px;
 
   /* Remember to set below colors */
-  --font: ;
-  --bg: ;
-  --bg-light: ;
+  --font: light-dark(rgb(54, 65, 83), rgb(209, 213, 220));
+  --bg: light-dark(rgb(249, 250, 251), rgb(16, 24, 40));
+  --bg-light: light-dark(rgb(249, 250, 261), rgb(16, 24, 50));
+  --accent: rgb(0, 150, 137);
 
   /* Font Families */
   --font-body:
@@ -60,12 +61,33 @@ body {
   font-size: calc(1rem + 0.1dvw);
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100dvh;
-  border: 1px solid transparent;
+  padding-inline: calc(var(--space-base) * 2);
+  color: var(--font);
+  background-color: var(--bg);
 }
 main {
   flex: 1;
+  min-width: 100%;
+  border: 2px solid red;
 }
 h1 {
   font-size: calc(1.3rem + 0.1dvw);
+  padding-block: calc(var(--space-base) * 8);
+}
+@media (min-width: 768px) {
+  body {
+    padding-inline: calc(var(--space-base) * 16);
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    padding-inline: calc(var(--space-base) * 24);
+  }
+}
+@media (min-width: 1092px) {
+  body {
+    padding-inline: calc(var(--space-base) * 48);
+  }
 }
