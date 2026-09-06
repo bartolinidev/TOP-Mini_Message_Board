@@ -6,6 +6,7 @@
     <title><%= title %></title>
   </head>
   <body>
+    <h1><%= title %></h1>
     <main>
       <% messages.forEach(m => { %>
       <%- include('components/message.ejs', { text: m.text, user: m.user, added: m.added }) %>
