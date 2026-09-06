@@ -11,7 +11,9 @@
       <%- include('components/message.ejs', { text: m.text, user: m.user, added: m.added }) %>
       <% }) %>
     </main>
-    <%- include('components/nav.ejs') %>
-    <%- include('components/footer.ejs') %>
+    <div class="bottom-wrapper">
+      <%- include('components/nav.ejs') %> <%- include('components/footer.ejs')
+      %>
+    </div>
   </body>
 </html>
