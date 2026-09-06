@@ -7,7 +7,9 @@
   </head>
   <body>
     <main>
-      The board
+      <% messages.forEach(m => { %>
+      <%- include('components/message.ejs', { text: m.text, user: m.user, added: m.added }) %>
+      <% }) %>
     </main>
     <%- include('components/nav.ejs') %>
     <%- include('components/footer.ejs') %>
