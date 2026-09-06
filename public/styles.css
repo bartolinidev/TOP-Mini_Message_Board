@@ -57,6 +57,7 @@ body {
   text-wrap: pretty;
   line-height: 1.5;
   font-family: var(--font-body);
+  font-size: calc(1rem + 0.1dvw);
   display: flex;
   flex-direction: column;
   min-height: 100dvh;
@@ -64,8 +65,7 @@ body {
 }
 main {
   flex: 1;
-  border: 1px solid red;
 }
 h1 {
-  font-size: 1.3rem;
+  font-size: calc(1.3rem + 0.1dvw);
 }
