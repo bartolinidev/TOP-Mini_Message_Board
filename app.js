@@ -3,6 +3,7 @@ const app = express();
 const path = require('node:path');
 const indexRouter = require('./routes/indexRouter');
 const newMsgRouter = require('./routes/newMsgRouter');
+const getMsgRouter = require('./routes/getMsgRouter');
 
 // Static paths
 
@@ -20,6 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/', indexRouter);
 app.use('/new', newMsgRouter);
+app.use('/messages', getMsgRouter);
 
 // Catch-all (Custom 404)
 app.use((req, res) => {
