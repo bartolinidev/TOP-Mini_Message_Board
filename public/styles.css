@@ -22,6 +22,8 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: var(--font);
+  font-family: var(--font-heading);
+  font-weight: lighter;
 }
 a:visited {
   color: inherit;
@@ -53,4 +55,5 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
+  font-weight: bold;
 }
