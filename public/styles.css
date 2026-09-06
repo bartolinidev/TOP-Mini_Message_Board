@@ -86,8 +86,13 @@ h1 {
     padding-inline: calc(var(--space-base) * 24);
   }
 }
-@media (min-width: 1092px) {
+@media (min-width: 1920px) {
   body {
-    padding-inline: calc(var(--space-base) * 48);
+    padding-inline: calc(var(--space-base) * 40);
+  }
+}
+@media (min-width: 2560px) {
+  body {
+    padding-inline: calc(var(--space-base) * 56);
   }
 }
