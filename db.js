@@ -1,29 +1,31 @@
 const messages = [
-  {
-    user: 'Amando',
-    text: 'Hi there!',
-    added: new Date(),
-  },
-  {
-    user: 'Charles',
-    text: 'Hello World!',
-    added: new Date(),
-  },
+  { id: 1, text: 'Hi there!', user: 'Amigo', added: new Date() },
+  { id: 2, text: 'Hello World!', user: 'Charles', added: new Date() },
 ];
+
+let nextId = 3;
 
 async function getAllMessages() {
   return messages;
 }
 
-async function addMessage({ user, text }) {
-  messages.push({
-    user,
+async function addMessage({ text, user }) {
+  const newMessage = {
+    id: nextId++, // Przypisuje obecną wartość nextId i inkrementuje ją o 1
     text,
+    user,
     added: new Date(),
-  });
+  };
+  messages.push(newMessage);
+}
+
+async function getMessageById(id) {
+  // Pamiętaj o rzutowaniu Number(id), ponieważ req.params.id z URL jest ciągiem znaków (string)
+  return messages.find((m) => m.id === Number(id));
 }
 
 module.exports = {
-  getAllMessages,
+  messages,
   addMessage,
+  getMessageById,
 };
