@@ -22,8 +22,8 @@ app.use('/', indexRouter);
 app.use('/new', newMsgRouter);
 
 // Catch-all (Custom 404)
-app.get('/*', (req, res) => {
-  res.status(404).send('Page not found (404)');
+app.use('/*', (req, res) => {
+  res.status(404).render('404', { title: '404 - Not Found', path: null });
 });
 
 // Port
