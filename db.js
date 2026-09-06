@@ -11,7 +11,7 @@ async function getAllMessages() {
 
 async function addMessage({ text, user }) {
   const newMessage = {
-    id: nextId++, // Przypisuje obecną wartość nextId i inkrementuje ją o 1
+    id: nextId++,
     text,
     user,
     added: new Date(),
@@ -20,7 +20,6 @@ async function addMessage({ text, user }) {
 }
 
 async function getMessageById(id) {
-  // Pamiętaj o rzutowaniu Number(id), ponieważ req.params.id z URL jest ciągiem znaków (string)
   return messages.find((m) => m.id === Number(id));
 }
 
