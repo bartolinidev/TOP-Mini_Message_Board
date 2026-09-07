@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <main>
+      <pre>
+{
+
+<span style="font-weight: bold;">id:</span> "<%= message.id %>"
+
+<span style="font-weight: bold;">user:</span> "<%= message.user %>"
+
+<span style="font-weight: bold;">added:</span> "<%= message.added %>"
+
+<span style="font-weight: bold;">text:</span> "<%= message.text %>"
+
+}
+      </pre>
+    </main>
+    <div class="bottom-wrapper">
+      <%- include('components/nav.ejs') %> <%- include('components/footer.ejs')
+      %>
+    </div>
+  </body>
+</html>
