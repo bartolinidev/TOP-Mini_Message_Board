@@ -68,7 +68,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100dvh;
+  height: 100dvh;
+  overflow: hidden;
   padding-inline: calc(var(--space-base) * 8);
   color: var(--font);
   background-color: var(--bg);
@@ -80,6 +81,16 @@ main {
   background-color: var(--bg-light);
   padding: calc(var(--space-base) * 8);
   border-radius: calc(var(--space-base) * 2);
+  overflow-y: auto;
+  min-height: 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: calc(var(--space-base) * 2);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
 }
 
 h1 {
@@ -96,6 +107,8 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: calc(var(--space-base) * 8);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 calc(var(--space-base) * 8) calc(var(--space-base) * 8);
   & > a {
     flex: 1;
     display: flex;
@@ -105,6 +118,12 @@ nav {
     &.active {
       border-top: 4px solid var(--accent);
     }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  & > a:not(:last-child) {
+    border-right: 1px dotted var(--accent);
   }
 }
 
