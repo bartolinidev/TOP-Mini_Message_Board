@@ -138,7 +138,7 @@ nav {
 
 .message {
   & .text {
-    border: 1px dashed var(--accent);
+    box-shadow: 1px 1px var(--accent);
     padding: calc(var(--space-base) * 2) calc(var(--space-base) * 4);
     border-radius: calc(var(--space-base) * 2);
     max-width: fit-content;
