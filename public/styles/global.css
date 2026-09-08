@@ -237,6 +237,19 @@ pre span {
   color: var(--accent);
 }
 
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  & svg {
+    width: calc(10rem + 0.1dvw);
+    height: auto;
+    fill: var(--accent);
+  }
+}
+
 @media (min-width: 768px) {
   body {
     padding-inline: calc(var(--space-base) * 16);
