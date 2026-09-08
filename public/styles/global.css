@@ -35,8 +35,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: var(--font);
-  font-family: var(--font-heading);
-  font-weight: lighter;
+  font-family: var(--font-body);
 }
 
 a:visited {
@@ -44,7 +43,7 @@ a:visited {
 }
 
 :root {
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
 
   --space-base: 4px;
 
