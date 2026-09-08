@@ -1,9 +1,20 @@
 const messages = [
-  { id: 1, text: 'Hi there!', user: 'Amigo', added: new Date() },
-  { id: 2, text: 'Hello World!', user: 'Charles', added: new Date() },
+  {
+    id: 1,
+    text: 'Anyone know what "Lorem ipsum dolor" would be with the Caesar cipher?',
+    user: 'Julius Caesar',
+    added: new Date(),
+  },
+  { id: 2, text: 'I have no idea :(', user: 'Charles', added: new Date() },
+    {
+    id: 3,
+    text: 'I know: "Oruhp lsvxp groru"',
+    user: 'Amigo',
+    added: new Date(),
+  },
 ];
 
-let nextId = 3;
+let nextId = 4;
 
 async function getAllMessages() {
   return messages;
