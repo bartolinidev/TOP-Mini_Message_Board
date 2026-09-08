@@ -175,6 +175,10 @@ nav {
   }
 }
 
+pre span {
+  color: var(--accent);
+}
+
 @media (min-width: 768px) {
   body {
     padding-inline: calc(var(--space-base) * 16);
