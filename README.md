@@ -27,7 +27,7 @@
 - `/views` - EJS templates for the UI
 - `app.js` - Server and middleware configuration
 
-## 📂 Screenshots
+## ✂️ Screenshots
 
 <p align="center">
   <img src="./public/screenshots/all_screenshot.png" width="300" />
