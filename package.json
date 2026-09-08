@@ -4,7 +4,9 @@
   "description": "- Create a basic messaging app using Express.js:   - Use Express Router and controller architecture (MVC pattern)   - Handle backend form submissions (`POST` requests & `express.urlencoded` middleware)   - Implement custom error handling and middleware - Render dynamic views using EJS:   - Utilize templates and partials via the `include` directive",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node --watch app.js"
   },
   "repository": {
     "type": "git",
