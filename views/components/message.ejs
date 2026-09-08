@@ -2,7 +2,11 @@
   <div class="text"><%= text %></div>
   <div class="wrapper">
     <div class="user"><%= user %></div>
-    <div class="added"><%= added %></div>
+    <div class="added">
+      <%= new Date(added).toLocaleString('en-GB', { year: 'numeric', month:
+      '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12:
+      false }) %>
+    </div>
     <a href="/messages/<%= id %>" class="log-btn">Log</a>
   </div>
 </section>
