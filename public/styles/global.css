@@ -149,7 +149,7 @@ nav {
     box-shadow: 1px 1px var(--accent);
     padding: calc(var(--space-base) * 2) calc(var(--space-base) * 4);
     border-radius: calc(var(--space-base) * 2);
-    max-width: fit-content;
+    max-width: 65ch;
     margin-bottom: calc(var(--space-base) * 2);
     background-color: var(--bg);
   }
