@@ -21,8 +21,11 @@
   },
   "homepage": "https://github.com/bartolinidev/TOP-Mini_Message_Board#readme",
   "dependencies": {
+    "dotenv": "^18.0.8",
     "ejs": "^6.0.1",
     "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "pg": "^8.23.1",
     "prettier-plugin-ejs": "^1.0.3"
   }
 }

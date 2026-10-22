@@ -17,5 +17,13 @@
       <%- include('components/nav.ejs') %> <%- include('components/footer.ejs')
       %>
     </div>
+
+    <!-- Scroll to te newest mssage -->
+    <script>
+      const mainContainer = document.querySelector('main');
+      if (mainContainer) {
+        mainContainer.scrollTop = mainContainer.scrollHeight;
+      }
+    </script>
   </body>
 </html>

@@ -42,10 +42,8 @@ a:visited {
   --accent: light-dark(rgb(0, 150, 137), rgb(210, 155, 92));
 
   /* Font Families */
-  --font-body:
-    system-ui, -apple-system, Segoe UI, Oxygen, Ubuntu, sans-serif;
-  --font-heading:
-    'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-body: system-ui, -apple-system, Segoe UI, Oxygen, Ubuntu, sans-serif;
+  --font-heading: 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {
@@ -70,7 +68,7 @@ body {
 
 main {
   flex: 1;
-  min-width: 100%;
+  width: min(100%, 800px);
   background-color: var(--bg-light);
   padding: calc(var(--space-base) * 8);
   overflow-y: auto;
@@ -100,7 +98,7 @@ h1 {
 }
 
 .bottom-wrapper {
-  min-width: 100%;
+  width: min(100%, 800px);
 }
 
 nav {
@@ -236,6 +234,32 @@ pre span {
     height: auto;
     fill: var(--accent);
   }
+}
+
+/* --- Scrollbar styles --- */
+main::-webkit-scrollbar {
+  width: 8px;
+}
+
+main::-webkit-scrollbar-track {
+  background: var(--bg-light);
+  border-radius: calc(var(--space-base) * 2);
+}
+
+main::-webkit-scrollbar-thumb {
+  background: var(
+    --accent
+  );
+  border-radius: calc(var(--space-base) * 2);
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
+}
+
+main {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg-light);
 }
 
 @media (min-width: 768px) {
