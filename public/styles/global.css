@@ -236,6 +236,32 @@ pre span {
   }
 }
 
+/* --- Scrollbar styles --- */
+main::-webkit-scrollbar {
+  width: 8px;
+}
+
+main::-webkit-scrollbar-track {
+  background: var(--bg-light);
+  border-radius: calc(var(--space-base) * 2);
+}
+
+main::-webkit-scrollbar-thumb {
+  background: var(
+    --accent
+  );
+  border-radius: calc(var(--space-base) * 2);
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
+}
+
+main {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg-light);
+}
+
 @media (min-width: 768px) {
   body {
     padding-inline: calc(var(--space-base) * 16);
