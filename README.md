@@ -6,12 +6,12 @@
 
 ## 🛠️ Tools
 
-[![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-%230A0A0A?style=flat&logo=express&logoColor=white)](https://expressjs.com/)
-[![EJS](https://img.shields.io/badge/EJS-%23B4CA65?style=flat&logo=ejs&logoColor=black)](https://ejs.co/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%234169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Neon](https://img.shields.io/badge/Neon-%2334D59A?style=flat&logo=neon&logoColor=white)](https://neon.tech/)
-[![Render](https://img.shields.io/badge/Render-%23000000?style=flat&logo=render&logoColor=white)](https://render.com/)
+[![NodeJS](https://img.shields.io/badge/NODE.JS-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/EXPRESS-0A0A0A?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=javascript&logoColor=black)](https://ejs.co/)
+[![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Neon](https://img.shields.io/badge/NEON-34D59A?style=for-the-badge&logo=neon&logoColor=black)](https://neon.tech/)
+[![Render](https://img.shields.io/badge/RENDER-000000?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 
 ## 📱 User Interface
 
