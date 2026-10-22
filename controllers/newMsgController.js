@@ -1,4 +1,4 @@
-const db = require('../db');
+const db = require('../db/queries');
 
 const addMessage = async (req, res) => {
   const { user, text } = req.body;
