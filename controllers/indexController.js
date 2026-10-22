@@ -1,4 +1,4 @@
-const db = require('../db');
+const db = require('../db/queries');
 
 const indexController = async (req, res) => {
   const messages = await db.getAllMessages();
