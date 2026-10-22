@@ -8,7 +8,7 @@
 
 [![NodeJS](https://img.shields.io/badge/NODE.JS-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/EXPRESS-0A0A0A?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=javascript&logoColor=black)](https://ejs.co/)
+![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black)
 [![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Neon](https://img.shields.io/badge/NEON-34D59A?style=for-the-badge&logo=neon&logoColor=black)](https://neon.tech/)
 [![Render](https://img.shields.io/badge/RENDER-000000?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
