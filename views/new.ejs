@@ -9,6 +9,7 @@
   <body>
     <h1><%= title %></h1>
     <main class="centered">
+      <%- include("components/errors.ejs") %>
       <form class="form-new" method="post" action="/new">
         <div class="form-line">
           <label for="user">User</label>
