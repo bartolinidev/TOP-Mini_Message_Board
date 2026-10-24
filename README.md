@@ -42,7 +42,7 @@ This app detects the user's OS color scheme and automatically adjusts.
   - Integrate PostgreSQL (Neon DB) for persistent data storage using connection pooling (`pg`)
   - Separate data access logic into dedicated query modules (`queries.js`)
   - Implement input validation and sanitization using `express-validator`
-  - Set up automated database-level triggers and PL/pgSQL functions for data retention (maintaining a sliding window of the latest 20 messages automatically)
+  - Set up automated database-level triggers and PL/pgSQL functions for data retention on Neon level (max 20 rows of messages)
 
 ## 📂 Project Structure
 
